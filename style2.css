@@ -1,0 +1,40 @@
+body {
+	margin: 0px;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: gray;
+}
+
+
+.img {
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+h1 {
+	font-family: fantasy;
+	text-align: center;
+	font-size: 3em;
+	/*border-bottom: 3px solid pink;
+	border-right: 3px solid pink;
+	width: 400px;
+	text-align: center;
+	box-shadow: 5px 5px 6px #888888;*/
+
+	
+
+}
+
+footer {
+	text-align: right;
+	padding: 20px;
+	color: #c0932b;
+}
